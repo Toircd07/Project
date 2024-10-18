@@ -1,1 +1,4 @@
 g++ -Iinclude main.cpp funcion\*.cpp -o main
+thay include bang ten thu muc chua 2 thu vien 
+thay main bang ten file chinh
+thay funcion bang ten file chua 2 tep.cpp 
