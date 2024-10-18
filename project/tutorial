@@ -1,0 +1,1 @@
+g++ -Iinclude main.cpp funcion\*.cpp -o main
