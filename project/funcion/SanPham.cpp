@@ -13,12 +13,13 @@ SanPham::SanPham(string maSanPham, string tenSanPham, double giaBan, int soLuong
 void SanPham::themSanPham(){
     cout << "Nhap ma san pham: ";
     cin >> maSanPham;
+    cin.ignore();
     cout << "Nhap ten san pham: ";
-    cin >> tenSanPham;
+    getline(cin, tenSanPham);
     cout << "Nhap gia ban: ";
     cin >> giaBan;
     cout << "Nhap so luong: ";
-    cin >> soLuong;
+    cin >> soLuong;  
     SanPham* sp = new SanPham(maSanPham, tenSanPham, giaBan, soLuong);
     danhSachSanPham.push_back(*sp);
 }
@@ -41,10 +42,11 @@ void SanPham::suaSanPham(){
     string maSanPham;
     cout << "Nhap ma san pham can sua: ";
     cin >> maSanPham;
+    cin.ignore();
     for (int i = 0; i < danhSachSanPham.size(); i++){
         if (danhSachSanPham[i].maSanPham == maSanPham){
             cout << "Nhap ten san pham: ";
-            cin >> danhSachSanPham[i].tenSanPham;
+            getline(cin, danhSachSanPham[i].tenSanPham);
             cout << "Nhap gia ban: ";
             cin >> danhSachSanPham[i].giaBan;
             cout << "Nhap so luong: ";
