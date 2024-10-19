@@ -70,11 +70,11 @@ void SanPham::hienThi(const int& i){
                 break ;}
         }
         cout << "| " << danhSachSanPham[i].maSanPham ;
-        for(int  j=0; j<12-danhSachSanPham[i].maSanPham.length(); j++){
+        for(int  j=0; j<16-danhSachSanPham[i].maSanPham.length(); j++){
             cout << " ";
         }
         cout << "| " << danhSachSanPham[i].tenSanPham ;
-        for(int  j=0; j<19-danhSachSanPham[i].tenSanPham.length(); j++){
+        for(int  j=0; j<25-danhSachSanPham[i].tenSanPham.length(); j++){
             cout << " ";
         }
         cout << "| " << danhSachSanPham[i].giaBan ;
@@ -90,7 +90,7 @@ void SanPham::hienThi(const int& i){
 
     }
 void SanPham::hienThiDanhSachSanPham(){
-     cout << "| STT | Ma san pham |    Ten san pham    |    Gia ban    |   So luong   |" << endl;
+     cout << "| STT |   Ma san pham   |       Ten san pham       |    Gia ban    |   So luong   |" << endl;
     for (int i = 0; i < danhSachSanPham.size(); i++){
         hienThi(i);
     }
@@ -103,7 +103,7 @@ void SanPham::timKiemSanPham(){
     for (int i = 0; i < danhSachSanPham.size(); i++){
 
         if (danhSachSanPham[i].maSanPham == maSanPham){
-        cout << "| STT | Ma san pham |    Ten san pham    |    Gia ban    |   So luong   |" << endl;
+         cout << "| STT |   Ma san pham   |       Ten san pham       |    Gia ban    |   So luong   |" << endl;
             hienThi(i);
             return;
         }
