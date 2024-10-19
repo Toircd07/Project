@@ -1,6 +1,8 @@
-14141;bcs;13;314
-179151;hcbabgf;47127;13
-85791;durex;123;41
-671846478;hjbfgjd;133;17913
-88888;toideptrai;99;1
-9999;toi;13;1
+0001;BCS Durex;100;1000
+0002;Chai xit toc;20;100
+0003;Dau goi;10;100
+0004;Kem danh rang;30;50
+0005;May rung ;100;31
+0006;Xit thom mieng;25;1000
+0007;Dau gio;14;100
+0008;Xit hoi nach;30;1000
