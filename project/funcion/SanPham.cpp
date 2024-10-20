@@ -20,6 +20,7 @@ void SanPham::themSanPham(){
     cin >> giaBan;
     cout << "Nhap so luong: ";
     cin >> soLuong;  
+    cout << "Them san pham thanh cong!" << endl;
     SanPham* sp = new SanPham(maSanPham, tenSanPham, giaBan, soLuong);
     danhSachSanPham.push_back(*sp);
 }

@@ -5,4 +5,3 @@
 0005;May rung ;100;31
 0006;Xit thom mieng;25;1000
 0007;Dau gio;14;100
-0008;Xit hoi nach;30;1000
